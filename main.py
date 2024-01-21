@@ -175,7 +175,7 @@ def main():
     lives = []
 
     for i in range(8):
-        for j in range(20):
+        for j in range(50):
             alien = pygame.Rect(50 * i + 50, -50 * j + 50, ALIEN_WIDTH, ALIEN_HEIGHT)
             aliens.append(alien)
 
