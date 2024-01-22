@@ -51,6 +51,7 @@ ALIEN_MOVE_EVENT = pygame.USEREVENT + 2
 ALIEN_MOVE_INTERVAL = 500
 PLAYER_HIT = pygame.USEREVENT + 3
 
+
 def draw_window(player, bullets, aliens, score, enemy_bullets, lives):
 
     WIN.blit(SPACE, (0, 0))
